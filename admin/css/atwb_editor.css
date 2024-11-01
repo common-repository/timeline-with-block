@@ -1,0 +1,42 @@
+.dashicon-picker-aria {
+    position: relative;
+}
+
+.icon-picker {
+    display: none;
+    height: auto;
+    max-height: 20vh;
+    overflow-y: auto;
+}
+
+.icon-picker.opend {
+    display: block;
+}
+
+.icon-picker>span.dashicons {
+    padding: 5px;
+    margin: 3px !important;
+}
+
+.icon-picker>span.dashicons:hover {
+    border: 0.5px solid grey;
+}
+
+#togglePicker>span.dashicons {
+    height: 60px;
+    width: 60px;
+    font-size: 36px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline_input {
+    width: 100%;
+}
+.wp-menu-image > img{
+    width: 27px;
+    overflow: hidden;
+    padding: 4px 1px !important
+}

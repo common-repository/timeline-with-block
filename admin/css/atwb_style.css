@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+}
+.atwb-settings-container{
+    max-width: 600px;
+}
+.form-control{
+    width:100%;
+    border: 1px solid gray;
+    outline: none;
+    
+    padding: 5px 3px  !important;
+    font-size: 15px;
+}
+.form-control:focus{
+    box-shadow:0px 0px 2px 4px #8080806e;
+}
+.form-table td{
+    position: relative;
+}
+.wp-picker-container{
+
+}
+.wp-picker-container .iris-picker{
+    position: absolute;
+    z-index: 9999;
+    top: 46px;
+    left: 10px;
+}
+
+.timeline_checkbox{
+    display: none !important;
+}
+.timeline_checkbox ~ label{
+    display: inline-block;
+    position: relative;
+    width: 90px;
+    height: 36px;
+    border-radius: 20px;
+    background-color: darkgrey;
+}
+.timeline_checkbox ~ label::before{
+    content: "No";
+    left: 2px;
+    border-radius: 50%;
+    
+}
+input.timeline_checkbox:checked ~ label{
+     background-color: green;
+}
+input.timeline_checkbox ~ label::before, input.timeline_checkbox ~ label::after{
+    position: absolute;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    top:2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+input.timeline_checkbox:checked ~ label::before{
+    display: none;
+}
+input.timeline_checkbox:checked ~ label::after{
+    content: "Yes";
+    right: 2px;
+    font-weight: bold;
+}
+input.timeline_number_input{
+    width: 80px;
+    padding: 2px 5px;
+    text-align: right;
+    font-size: 18px;
+}
+.nav-tab-active, .nav-tab-active:focus, .nav-tab-active:focus:active, .nav-tab-active:hover{
+    background-color: rgb(127, 180, 127);
+    border-top:  1px solid rgb(152, 200, 152);
+    border-left:  1px solid rgb(152, 200, 152);
+    border-right: 1px solid rgb(152, 200, 152);
+    color:white;
+}
+.timeline_select{
+    width: 100%;
+    padding: 5px 10px !important;
+    box-shadow: 0px 0px 3px 2px lightgray !important;
+    font-size: 15px !important;
+}
+
